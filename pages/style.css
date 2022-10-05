@@ -1,3 +1,36 @@
+body {
+    font-family: Montserrat,Helvetica Neue,Arial,sens-serif;
+}
 #header {
-    margin: 0;
+    font-size: 2.9em;
+}
+.navbar a {
+    color: black;
+    background-color: rgb(197, 197, 197);
+    text-decoration: none;
+    font-size: 1.125em;
+}
+.navbar a:hover {
+    color: white;
+    background-color: #343434;
+}
+.contents {
+    left: 20px;
+    width: 200px;
+    z-index: 1;
+    position: fixed;
+    margin-top: 30px;
+}
+.contents a {
+    display: block;
+    color: black;
+    font-size: 1.125em;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+.contents a:hover {
+    color: #4298b4;
+}
+.main {
+    margin-left: 200px;
 }
